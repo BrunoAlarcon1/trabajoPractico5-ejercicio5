@@ -23,7 +23,38 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <h1>Cronometro</h1>
+
+      <section>
+        <article>
+          <div id="cronometro">00:00:00</div>
+        </article>
+        <article>
+          <button
+            type="button"
+            class="btn btn-success"
+            onclick="iniciarCronometro()"
+          >
+            Iniciar
+          </button>
+          <button
+            type="button"
+            class="btn btn-warning"
+            onclick="pausarCronometro()"
+          >
+            Pausar
+          </button>
+          <button
+            type="button"
+            class="btn btn-danger"
+            onclick="reiniciarCronometro()"
+          >
+            Reiniciar
+          </button>
+        </article>
+      </section>
+    </main>
     <footer></footer>
 
     <script

@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+ h1{
+    margin: 20px 0px 20px 0px ;
+  }
+  #cronometro {
+    font-size: 3em;
+    margin: 20px 0;
+    margin-left: 20px;
+  }
+  button {
+    margin-right: 10px;
+  }
